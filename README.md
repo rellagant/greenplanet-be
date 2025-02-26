@@ -1,5 +1,53 @@
-# 🚀 Getting started with Strapi
+# GreenPlanet Backend
 
+This is the backend for the GreenPlanet project, built using [Strapi](https://strapi.io/). 
+Strapi is an open-source Headless CMS that enables content-rich experiences. 
+The project uses SQLite as the default database for development purposes.
+
+## Project Overview
+
+- **Version**: 0.1.0
+- **Description**: A Strapi application for managing the backend of the GreenPlanet project.
+- **Node Version**: >=18.0.0 <=22.x.x
+- **NPM Version**: >=6.0.0
+
+## Technologies Used
+
+- **Strapi**: Version 5.10.3
+- **Database**: Better-SQLite3 (for development)
+- **Frontend-related dependencies**:
+  - React 18
+  - React Router DOM 6
+  - Styled Components
+- **TypeScript**: Used in development for type safety.
+
+## Installation
+
+To get started with the project, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone git@github.com:rellagant/greenplanet-be.git
+   ```
+2. cd into the project:
+
+   ```bash
+   cd greenplanet-be
+   ```
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run develop
+   ```
+
+# 🚀 Getting started with Strapi
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
 
 ### `develop`
